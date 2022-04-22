@@ -1,0 +1,24 @@
+/* changes the style of the connect 4 board */
+#board td {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #666;
+}
+
+/* stylizis the pieces within the board to be circles inside the game table cells */
+.piece {
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+/* stylizes the board where users click to drop pieces into the game board for each column */
+#column-top td {
+    border: dashed 1px lightgray;
+}
+
+/* creates hover animation that makes hovered piece gold when user is dropping pieces into the board. */
+#column-top td:hover {
+    background-color: gold;
+}
